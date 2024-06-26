@@ -1,0 +1,73 @@
+.Form {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    height: 250px;
+}
+
+.TaskField p {
+    margin-bottom: 5px;
+    font-size: small;
+    font-weight: bolder;
+    color: rgb(151, 151, 151);
+}
+
+.field {
+    padding: 5px 15px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+}
+
+
+/* -------------------------------- */
+.radio-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.radio-container input[type="radio"] {
+    display: none;
+}
+
+.radio-container label {
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+}
+
+.radio-high label {
+    border-color: red;
+    color: red;
+}
+
+.radio-medium label {
+    border-color: orange;
+    color: orange;
+}
+
+.radio-low label {
+    border-color: green;
+    color: green;
+}
+
+.radio-container input[type="radio"]:checked+label.radio-high {
+    background-color: red;
+    color: white;
+}
+
+.radio-container input[type="radio"]:checked+label.radio-medium {
+    background-color: orange;
+    color: white;
+}
+
+.radio-container input[type="radio"]:checked+label.radio-low {
+    background-color: green;
+    color: white;
+}

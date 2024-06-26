@@ -1,0 +1,17 @@
+h1 {
+    margin-left: 10px;
+}
+button {
+    margin-right: 10px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(113, 43, 226);
+    border:none;
+    border-radius: 8px;
+    align-self: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}

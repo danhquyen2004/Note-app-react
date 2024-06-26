@@ -1,0 +1,84 @@
+.taskContainer 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+.taskText {
+    margin: 0;
+    line-height: 2;
+    font-size: 12px;
+    color: #ccc;
+    font-weight: normal;
+}
+.taskDetails {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.task {
+    margin-right: 150px;
+    max-width: 100px;
+    min-width: 100px;
+  }
+.highPriority {
+    color: red;
+    margin-right: 80px;
+    font-weight: bold;
+    max-width: 40px;
+    min-width: 40px;
+    
+}
+.lowPriority {
+    color: green;
+    margin-right: 80px;
+    font-weight: bold;
+    max-width: 40px;
+    min-width: 40px;
+}
+.mediumPriority {
+    color: rgb(255, 196, 0);
+    margin-right: 80px;
+    font-weight: bold;
+    max-width: 40px;
+    min-width: 40px;
+}
+.status {
+    margin-right: 50px;
+    color: gray;
+    font-size:12px;
+    max-width:60px;
+    min-width:50px;
+    height: 25px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    max-width: 80px;
+  }
+.checkbox {
+    margin-right: 10px,
+  }
+.editButton {
+    margin-right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer,
+  }
+.deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
